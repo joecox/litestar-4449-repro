@@ -1,0 +1,12 @@
+[project]
+name = "litestar-4449-repro"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "litestar",
+]
+
+[tool.uv.sources]
+litestar = { git = "https://github.com/litestar-org/litestar", rev = "1863d4aa7290f3473a3fee89ee5309a913cf3e21" }
